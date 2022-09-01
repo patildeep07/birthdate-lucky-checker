@@ -1,0 +1,69 @@
+
+* {
+    /* width: 100%; */
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+h1{
+    color: blueviolet;
+    font-size: 3rem;
+}
+
+label {
+    display: block;
+    margin: auto;
+    padding: 1%;
+    /* font-weight: 600; */
+    font-size: 1rem;
+}
+
+label #birthdate{
+    display: block;
+    margin: auto;
+    padding: 1%;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+input{
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: blueviolet;
+    font-size: large;
+}
+
+#output-div{
+    text-align: center;
+    padding: 1%;
+    border: solid 2px;
+    margin-top: 5%;
+    height: 100px;
+    width: 60%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: blueviolet;
+    /* font-size: 1rem; */
+}
