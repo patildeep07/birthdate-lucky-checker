@@ -1,35 +1,45 @@
 
 * {
-    /* width: 100%; */
-    background-color: aliceblue;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.container{
-    margin: auto;
-    width: 50%;
+    margin: 0;
+    /* padding: 0; */
+    /* width: 560vh; */
+    background-color:whitesmoke;
     text-align: center;
 }
 
-h1{
-    color: blueviolet;
-    font-size: 3rem;
+h1 {
+    background-color: blueviolet;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 0 10px 0;
 }
+
+.container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
 
 label {
     display: block;
     margin: auto;
-    padding: 1%;
-    /* font-weight: 600; */
-    font-size: 1rem;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: blueviolet;
 }
 
 label #birthdate{
     display: block;
     margin: auto;
-    padding: 1%;
+    padding: 10px;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 20px;
 }
 
 input{
@@ -41,12 +51,14 @@ input{
     padding: 10px;
     border-radius: 10px;
     border-color: blueviolet;
+    border-width: 2px;
+    color: blueviolet;
 }
 
 button{
     display: block;
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 10px;
     padding: 5px 10px 5px 10px;
     border-radius: 10px;
     color: aliceblue;
@@ -56,14 +68,18 @@ button{
 
 #output-div{
     text-align: center;
-    padding: 1%;
+    padding: 10px;
     border: solid 2px;
-    margin-top: 5%;
-    height: 100px;
+    margin-top: 20px;
+    min-height: 100px;
+    height: fit-content;
     width: 60%;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
     border-color: blueviolet;
-    /* font-size: 1rem; */
+    font-size: 20px;
+    font-weight: 600;
+    color: blueviolet;
+    border-width: 3px;
 }
